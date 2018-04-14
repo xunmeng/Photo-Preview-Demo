@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photo_preview_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotographyPreviewActivity">
+    <!-- 高斯模糊 背景 -->
+    <ImageView
+        android:id="@+id/photo_preview_view_bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"
+        />
+
+    <com.example.sunlianqing.photopreviewdemo.view.SideViewPager
+        android:id="@+id/photo_preview_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.example.sunlianqing.photopreviewdemo.view.SideViewPager>
+
+    <LinearLayout
+        android:id="@+id/preview_item_ly_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#80000000"
+        android:orientation="vertical">
+
+        <com.example.sunlianqing.photopreviewdemo.view.LinearDotTransform
+            android:id="@+id/photo_preview_view_dot_transform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
