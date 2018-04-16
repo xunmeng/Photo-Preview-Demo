@@ -3,13 +3,14 @@ package com.example.sunlianqing.photopreviewdemo.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.nfc.tech.MifareUltralight.PAGE_SIZE;
 
 
 /**
  * @author sunlianqing
  */
 public class TestData {
+
+	public static int PAGE_SIZE = 3;
 
 	public static List<PhotographyOutSideModel.ListBean> getList() {
 		List<PhotographyOutSideModel.ListBean> testList = new ArrayList<>();

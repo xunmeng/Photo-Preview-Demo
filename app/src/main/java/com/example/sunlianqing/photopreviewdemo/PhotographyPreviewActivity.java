@@ -299,9 +299,9 @@ public class PhotographyPreviewActivity extends AppCompatActivity implements
 
 	private void getListData(final int tempPage, final String from) {
 		List<PhotographyOutSideModel.ListBean> list = TestData.getList();
-		if (ListUtils.isEmpty(list)) {
+		if (!ListUtils.isEmpty(list)) {
 			if (from.equals(FROM_BACK)) {
-				listIndex = 9;
+				listIndex = TestData.PAGE_SIZE - 1;
 			} else {
 				listIndex = 0;
 			}
