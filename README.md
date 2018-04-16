@@ -11,8 +11,5 @@
 5.逻辑：自动加载当前position到当前data page的最后位置间的数据(position ---  page * pagesize），到达最后（最前）一页时，自动网络请求加载新的数据<br><br>
 
 
-![image](https://github.com/CoderZYWang/JianshuPersonal/blob/master/%E7%AE%80%E4%B9%A6%E4%B8%AA%E4%BA%BA%E8%AF%A6%E6%83%85%E9%A1%B5.gif) 
-
-![image](https://github.com/xunmeng/Photo-Preview-Demo/blob/master/app/read.gif)
-<br>
-
+![image](https://github.com/xunmeng/Photo-Preview-Demo/blob/master/app/read.gif) 
+ 
