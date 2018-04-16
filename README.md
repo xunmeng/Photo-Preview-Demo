@@ -4,11 +4,11 @@
 
 
 # 特点：
-1.图片预览
-2.高斯模糊
-3.图片双击放大
-4.蒙层消息可控制展示或隐藏
-5.逻辑：自动加载当前position到当前data page的最后位置间的数据(position ---  page * pagesize），到达最后（最前）一页时，自动网络请求加载新的数据
+1.图片预览<br>
+2.高斯模糊<br>
+3.图片双击放大<br>
+4.蒙层消息可控制展示或隐藏<br>
+5.逻辑：自动加载当前position到当前data page的最后位置间的数据(position ---  page * pagesize），到达最后（最前）一页时，自动网络请求加载新的数据<br><br>
 
 
 ![image]（https://github.com/xunmeng/demo/blob/master/app/src/main/res/mipmap-xxhdpi/read.gif ） 
